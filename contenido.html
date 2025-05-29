@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario de Anfibios</title>
+    <link rel="stylesheet" href="contenido.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="quiz-container">
+        <header class="quiz-header">
+            <h1>Explora el Mundo de los Anfibios</h1>
+            <p>Pon a prueba tus conocimientos generales sobre estas fascinantes criaturas.</p>
+        </header>
+
+        <section class="question-section" id="question-section">
+            <div class="progress-bar-container">
+                <div class="progress-bar" id="progress-bar"></div>
+            </div>
+            <p class="question-counter" id="question-counter">Pregunta 1 de X</p>
+            <h2 class="question-text" id="question-text">¿Cuál es el orden de anfibios que incluye ranas y sapos?</h2>
+            <div class="options-container" id="options-container">
+                <button class="option-button" data-option="A">A) Caudata</button>
+                <button class="option-button" data-option="B">B) Anura</button>
+                <button class="option-button" data-option="C">C) Gymnophiona</button>
+            </div>
+            <div class="feedback-message" id="feedback-message"></div>
+            <button class="next-button" id="next-button" style="display: none;">Siguiente Pregunta</button>
+        </section>
+
+        <section class="results-section" id="results-section" style="display: none;">
+            <h2>¡Cuestionario Completado!</h2>
+            <p>Has terminado el cuestionario. Aquí están tus resultados:</p>
+            <p class="score-text" id="score-text">Obtuviste <span id="final-score">0</span> de <span id="total-questions">0</span> respuestas correctas.</p>
+            <div class="trophy-icon">🏆</div>
+            <button class="restart-button" id="restart-button">Volver a Intentar</button>
+        </section>
+    </div>
+
+    <script src="contenido.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente elegante */
+    margin: 0;
+    padding: 0;
+    background-color: #F0F8FF; /* Azul muy claro, tipo pastel */
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #B0E0E6; /* Azul claro pastel */
+    color: white;
+    padding: 1.5em 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+}
+
+main {
+    padding: 2em;
+    max-width: 800px;
+    margin: 2em auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.quienes-somos-section p {
+    font-size: 1.1em;
+    text-align: justify;
+    margin-bottom: 1.5em;
+    color: #555;
+}
+
+.canva-link {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.canva-link a {
+    display: inline-block;
+    background-color: #98FB98; /* Verde claro pastel */
+    color: #333;
+    padding: 0.8em 1.5em;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.canva-link a:hover {
+    background-color: #7CFC00; /* Verde un poco más intenso al pasar el mouse */
+    transform: translateY(-2px);
+}
+
+footer {
+    text-align: center;
+    padding: 1.5em 0;
+    margin-top: 3em;
+    background-color: #B0E0E6; /* Azul claro pastel */
+    color: white;
+    font-size: 0.9em;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.05);
+}
